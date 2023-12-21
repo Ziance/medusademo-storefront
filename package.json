@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "next dev -p 8000",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p $PORT",
     "lint": "next lint",
     "cypress": "cypress open",
     "analyze": "ANALYZE=true next build"
@@ -45,7 +45,7 @@
     "react-hook-form": "^7.30.0",
     "react-instantsearch-hooks-web": "^6.29.0",
     "react-intersection-observer": "^9.3.4",
-    "sharp": "^0.33.1",
+    "sharp": "^0.30.7",
     "tailwindcss-radix": "^2.8.0",
     "webpack": "^5"
   },

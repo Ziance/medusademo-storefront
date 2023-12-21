@@ -27,7 +27,7 @@ if (process.env.MEDUSA_FF_MEDUSA_V2) {
 }
 
 // The API_BASE_URL is set in the .env file. It is the base URL of your Next.js app.
-const API_BASE_URL = process.env.NEXT_PUBLIC_BASE_URL
+const API_BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:8000"
 
 /**
  * Fetches a product by handle, using the Medusa API or the Medusa Product Module, depending on the feature flag.
