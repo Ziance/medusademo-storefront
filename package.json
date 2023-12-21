@@ -1,4 +1,5 @@
 {
+  "cacheDirectories": [".next/cache"],
   "name": "medusa-next",
   "version": "1.0.3",
   "private": true,
@@ -12,9 +13,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "heroku-postbuild": "npm run build",
-    "cypress": "cypress open",
-    "analyze": "ANALYZE=true next build"
+    "heroku-postbuild": "npm run dev"
   },
   "resolutions": {
     "webpack": "^5",
